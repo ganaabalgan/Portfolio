@@ -59,8 +59,13 @@ body {
     text-align: center;
     font-family: monospace;
     font-size: 50px;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px #888888;
 }
 .featuredItem img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+.featuredItem a {
+    font-size: 12px;
 }
