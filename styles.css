@@ -59,7 +59,6 @@ body {
     text-align: center;
     font-family: monospace;
     font-size: 50px;
-    box-shadow: 0.1px 0.1px 0.1px 0.1px #888888;
 }
 .featuredItem img {
     width: 100%;
@@ -68,4 +67,51 @@ body {
 
 .featuredItem a {
     font-size: 12px;
+}
+
+@media only screen and (max-width: 425px) {
+    .featuredItem a {
+        font-size: 12px;
+    }
+    #main {
+        display: block;
+    }
+    #main p {
+        padding-left: 30px;
+    }
+    header h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    header h3 {
+        font-size: 25px;
+        margin: 0;
+    }.logo {
+        flex-wrap: wrap;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    .mainPic {
+        flex-wrap: nowrap;
+    }
+    #main {
+        display: block;
+    }
+    #main p {
+        padding-left: 30px;
+    }
+    header h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    header h3 {
+        font-size: 25px;
+        margin: 0;
+    }.logo {
+        flex-wrap: wrap;
+        width: 100px;
+        height: 100px;
+    }
 }
